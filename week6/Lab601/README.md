@@ -6,13 +6,13 @@ from the provided C# source code.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
-![570610601](http://www.uppic.biz/images/2015/09/29/Lab601.png)
+![570610601](http://www.uppic.biz/images/2015/10/03/Lab601_original.png)
 2. Detail explaination about the identified pattern and all the parcipants
 > **Answer:** This code have abstract factory pattern that encapsulated a group of factories without specifying their concrete classes.
 
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
-  > 
+  ![570610601](http://www.uppic.biz/images/2015/10/03/Lab601_asiafactory.png)
   - Test the new requirment by modifying the main function and show the result.
   ![570610601](http://www.uppic.biz/images/2015/10/02/Lab601_edited_result.png)
   - Show the main function and snippet of C# code that is related to the process.
