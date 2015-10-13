@@ -9,8 +9,8 @@ from the provided C# program.
 ![570610601](http://i58.tinypic.com/29dyccz.png)
 2. Detail explaination about the identified pattern and all the parcipants
 
-> This program uses factory method design pattern that define an interface for creating an object and let subclasses decide hich class to instantiate. The factory method have around 4 participants.
-* Product – defines the interface of objects the factory method creates.
-* ConcreteProduct – implements the Product interface.
-* Creator – declare the factory method, which returns an object of type Product.
-* ConcreteCreator – overrides the factory method to return an instance of a ConcreteProduct.
+> This program uses abstract factory design pattern that Provide an interface for creating families of related objects. The abstract factory have around 4 participants.
+* Document class is AbstractFactory – declares an interface for operations that create abstract products.
+* Resume and Report classes are ConcreteFactory – implements the operations to create concrete product objects.
+* Page class is AbstractProduct – declare an interface for a type ofproduct object.
+* SkillPage, EducationPage, ExperiencePage, IntroductionPage, ResultsPage, ConclusionPage, SummaryPage and BibliographyPage classes are Product – defines a product object to be created by the concrete factory and implements the AbstractProduct interface.
